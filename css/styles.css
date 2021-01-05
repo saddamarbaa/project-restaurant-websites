@@ -12,16 +12,12 @@ h1 {
 p {
   color: white;
   margin-top: 36px;
-  padding: 25px;
+  padding: 25px 0 0;
   font-family: Helvetica;
+  text-align: center;
+  font-size: 1.1rem;
+  color: black;
 }
-
-/* Simple Responsive Framework. */
-
-.row {
-  width: 100%;
-}
-
 .title {
   width: 100px;
   padding: 10px;
@@ -29,6 +25,8 @@ p {
   right: 0px;
   text-align: center;
   display: inline-block;
+  border: 1px solid black;
+  font-size: 1.2rem;
 }
 
 .chicken {
@@ -54,6 +52,13 @@ section {
   margin-right: auto;
   margin-bottom: 10px;
 }
+
+/* Simple Responsive Framework. */
+
+.row {
+  width: 100%;
+}
+
 /********** Small devices only (Small devices version) **********/
 
 @media (max-width: 767px) {
