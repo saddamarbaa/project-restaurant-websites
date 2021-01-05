@@ -46,11 +46,13 @@ p {
 
 section {
   background-color: lightblue;
-  min-height: 150px;
   position: relative;
   border: 1px solid black;
   background-color: grey;
-  /* width: 80%; */
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
 }
 /********** Small devices only (Small devices version) **********/
 
@@ -69,6 +71,7 @@ section {
   .col-sm-12 {
     float: left;
   }
+
   .col-sm-1 {
     width: 8.33%;
   }
@@ -160,6 +163,10 @@ section {
   .col-md-12 {
     width: 100%;
   }
+
+  section.thridDive {
+    width: 97%;
+  }
 }
 
 /********** Large devices only(a desktop version) **********/
@@ -214,15 +221,5 @@ section {
   }
   .col-lg-12 {
     width: 100%;
-  }
-
-  /* section {
-    margin-left: auto;
-    margin-right: auto;
-  } */
-
-  section div {
-    background-color: red;
-    position: relative;
   }
 }
